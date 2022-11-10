@@ -214,10 +214,6 @@ footer .omar {
 
 
 @media (max-width: 750px) {
-    body {
-        overflow-x: hidden;
-    }
-    
     .home .aboutHeader {
         padding: 20px 20px;
     }
