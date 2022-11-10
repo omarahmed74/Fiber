@@ -1,0 +1,265 @@
+body {
+    overflow-x: hidden;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    transition: all .5s;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #3F10AC;
+}
+
+.btn1 a {
+    color:  black;
+    font-weight: 600;
+    margin: 0px 10px;
+    transition: all .4;
+}
+
+.btn1 a:hover {
+    color: #3F10AC
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+    transition: all .2s;
+}
+
+.btn2  {
+    border: 1px solid #3F10AC;
+    background-color: #3F10AC;
+    margin-right: 80px;
+    transition: all .5s;
+}
+.btn2 a:hover {
+    color: #3F10AC;
+}
+
+.btn2:hover {
+    border: 1px solid #3F10AC;
+    background-color: white;
+    color: black;
+}
+
+.bg-dd {
+    background-color: #FBF8F3;   
+}
+
+.home {
+    background-color: #FBF8F3;
+}
+
+.home .aboutHeader {
+    padding: 150px 40px;
+}
+
+.home .aboutHeader h5 span {
+    color: hsl(233, 8%, 62%);
+    padding: 1px 0px;
+    font-size: 15px;
+}
+
+.home .aboutHeader h1 {
+    color: black;
+    font-weight: 700;
+}
+
+.home .aboutHeader p {
+    color:  hsl(233, 8%, 62%);
+}
+
+
+.btn3 {
+    border: 1px solid #3F10AC;
+    background-color: #3F10AC;
+    color: white;
+    transition: all .5s;
+}
+
+.btn3:hover {
+    border: 1px solid #3F10AC;
+    background-color: white;
+    color: black;
+}
+
+.btn1-2 {
+    color:  black;
+    font-weight: 600;
+    margin: 0px 10px;
+    color: #3F10AC;
+    text-decoration: underline;
+}
+
+
+.home .checkImg {
+  margin: 20px 0px;
+}
+
+.home .checkImg span {
+  padding: 0px 3px;  
+}
+
+.whyUS {
+    padding: 40px 20px;
+}
+
+.whyUS h1 {
+    font-weight: 700;
+}
+
+.whyUS p {
+    color: hsl(233, 8%, 62%);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.whyChosse .card {
+    border: 0px;
+}
+
+
+.whyChosse .card img {
+    padding: 10px;
+    width: 70px;
+}
+
+.background-23 {
+    padding: 50px 20px;
+}
+
+.background-23 .container {
+    background-color: #3F10AC;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.background-23 .container h1 {
+    color: white;
+    padding: 50px 0px;
+}
+
+.background-23 h1 {
+    font-weight: 700;
+}
+
+.background-23 p {
+    color: white;
+    padding: 10px 0px;
+}
+
+.btn4 {
+    background-color: white;
+    color: #3F10AC;
+    transition: all .5s;
+    font-weight: 600;
+}
+
+.btn4:hover {
+    background-color: white;
+    color: black;
+}
+
+.Comments .edites img {
+   width: 40px;
+   margin: 15px;
+}
+
+.Comments .edites span {
+    color: #3F10AC;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #FBF8F3;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
+
+footer .colors {
+    color: black;
+    font-weight: 700;
+}
+
+footer .colores {
+    color: hsl(233, 8%, 62%) !important;
+}
+
+footer .omar {
+   color: red;text-decoration: none;
+   font-weight: 700;
+}
+
+.color-bg {
+    background-color: #3F10AC;
+}
+ 
+.display {
+    display: block;
+} 
+ 
+
+
+
+
+
+
+
+
+@media (max-width: 750px) {
+    body {
+        overflow-x: hidden;
+    }
+    
+    .home .aboutHeader {
+        padding: 20px 20px;
+    }
+
+    .home .aboutImg {
+        margin-top: 50px;
+    }
+
+    .home .checkImg {
+        margin: 20px 0px;
+        display: flex;
+    }
+
+    .whyUS h1 {
+        font-size: 25px;
+    }
+
+  
+    .background-23 .container h1 {
+        color: white;
+        padding: 30px 0px;
+    }
+    
+    .background-23 h1 {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .background-23 p {
+        color: white;
+        padding: 10px 0px;
+        font-size: 17px;
+    }
+
+    footer .footer-button {
+        padding: 20px 0px;    
+    }
+
+    .display {
+        display: none;
+    } 
+     
+      
+
+}
